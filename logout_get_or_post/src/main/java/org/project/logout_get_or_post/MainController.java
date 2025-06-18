@@ -9,4 +9,7 @@ public class MainController {
 	public String home() {
 		return "index";
 	}
+
+	@GetMapping("/other")
+	public String other() {return "other";}
 }
